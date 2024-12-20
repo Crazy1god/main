@@ -41,14 +41,14 @@ print (my_string .replace(" ", "")) # удаляют пробелы
 print(my_string [ 1 ]) # первая буква
 print (my_string [ -1 ]) # последняя буква
 #//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-immutable_var = "Код", "Прекрасный", 1, 2, True
+immutable_var = "Код", "Прекрасный", 1, 2, True  # простой код не кортедж
 print(immutable_var)
 # print(type(immutable_var))
 # immutable_var[2]= 222
 # выдаст ошибку, так как кортеж не поддерживает обращение по элементами
-mutable_list = ["Python", "Nice", 7, 9, False]
-mutable_list[0] = "Code"
-mutable_list[1] = "Good"
-mutable_list[4] = "Null"
-print(mutable_list)
+mutable_list = ["Python", "Nice", 7, 9, False] # кортедж 
+mutable_list[0] = "Code" # меняет значение
+mutable_list[1] = "Good" # меняет значение
+mutable_list[4] = "Null" # меняет значение
+print(mutable_list) # вывод
 #//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
