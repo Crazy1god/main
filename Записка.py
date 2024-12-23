@@ -53,17 +53,17 @@ mutable_list[4] = "Null" # меняет значение
 print(mutable_list) # вывод
 #//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 my_dict = {'Danil': 1997, 'Kate': 2003, 'Vova': 2023}
-print(my_dict)
-print(my_dict['Danil'])
-print(my_dict.get('Petr'))
-my_dict.update({'Gena':1993,'Den':1992})
-a = print(my_dict.pop('Vova'))
-print(my_dict)
+print(my_dict) # вывод кортежа
+print(my_dict['Danil']) # вывод год данила 
+print(my_dict.get('Petr')) #добалаение петра которого нет
+my_dict.update({'Gena':1993,'Den':1992}) #добавление Гены и Дена 
+a = print(my_dict.pop('Vova')) #удаляем кортеж вова
+print(my_dict) # вывод 
 
-my_set = {1, 1, 1 ,1, 'tomato',  'tomato', 123.424, 123.424, 123.424, 'tomato',1, 123.424}
-print(my_set)
-my_set.add(5)
-my_set.add((5,4,3))
-my_set.discard(1)
-print(my_set)
+my_set = {1, 1, 1 ,1, 'tomato',  'tomato', 123.424, 123.424, 123.424, 'tomato',1, 123.424} # кортеж
+print(my_set) # вывод 
+my_set.add(5) # добавление цифр 
+my_set.add((5,4,3)) # добавление цифр  
+my_set.discard(1) #удалили цифру 1 
+print(my_set) # вывод 
 #//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
