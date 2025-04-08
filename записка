@@ -290,3 +290,13 @@ any() и all() — функции, предоставляющие быстрые
 # x2 = (-b + D**0.5)/(2*a)
 #
 # P.S. D**0.5 - равносильно извлечению квадратного корня
+
+
+class User:
+   login = 'user_login'
+   role = 'Python Developer'
+
+
+print(User.__dict__)
+
+# {'__module__': '__main__', 'login': 'user_login', 'role': 'Python Developer', '__dict__': <attribute '__dict__' of 'User' objects>, '__weakref__': <attribute '__weakref__' of 'User' objects>, '__doc__': None}
