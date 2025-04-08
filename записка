@@ -300,3 +300,14 @@ class User:
 print(User.__dict__)
 
 # {'__module__': '__main__', 'login': 'user_login', 'role': 'Python Developer', '__dict__': <attribute '__dict__' of 'User' objects>, '__weakref__': <attribute '__weakref__' of 'User' objects>, '__doc__': None}
+
+getattr()	Возвращает значение атрибута
+экземпляра или класса
+setattr()	Устанавливает или изменяет значение
+атрибута экземпляра или класса
+hasattr()	Проверяет наличие атрибута
+в экземпляре или классе
+delattr()	Удаляет локальные атрибуты
+экземпляра или атрибуты класса
+isinstance()	Выполняет проверку соответствия
+типа объекта и указанного класса
